@@ -13,7 +13,7 @@ app.use(express.json());
 app.use("/teams", teamsRouter);
 
 app.listen(PORT, () => {
-  console.log(`Servidor backend corriendo en http://localhost:${PORT}`);
+  console.log(`Servidor backend corriendo en el puerto ${PORT}`);
 });
 
 const classificationRouter = require("./routes/classification");
